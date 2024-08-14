@@ -1,0 +1,16 @@
+.appContainer {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .title {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  

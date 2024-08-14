@@ -1,10 +1,19 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React from 'react';
+import styles from '../styles/Card.module.css';
 
-const Card = () => {
+const Card = ({ name, team }) => {
   return (
-    <div>Hola, soy una tarjeta</div>
+    <div className={styles.cardContainer}>
+      <h2 className={styles.cardTitle}>Información del estudiante</h2>
+      <p className={styles.cardText}>Nombre: {name}</p>
+      <p className={styles.cardText}>Equipo de Fútbol Favorito: {team}</p>
+    </div>
   )
 }
 
-export default Card
+export default Card;
+
+
+
